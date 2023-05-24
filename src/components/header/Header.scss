@@ -68,11 +68,12 @@
         margin-right: 30px;
     }
 
-    &__phoneNumber {
+    &__phoneNumberLink {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #454F5B;
+    text-decoration: none;  
     }
 
     &__imageContact {

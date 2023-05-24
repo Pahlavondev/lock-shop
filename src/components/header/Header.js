@@ -48,13 +48,12 @@ function Header() {
 
                 </ul>
             </div>
-
         </div>
     
         <div className="header__contact">
             <div className="header__wrapper">
             <img className="header__imageContact" src={phoneCall} alt="phone-call" />
-            <span className="header__phoneNumber">+7 (966) 55 88 499</span>
+            <Link className="header__phoneNumberLink" href="tel: +7 (966) 55 88 499">+7 (966) 55 88 499</Link>
             </div>
 
             <div className="header__add">

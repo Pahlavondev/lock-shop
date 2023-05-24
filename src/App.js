@@ -6,6 +6,8 @@ import Count from './components/count/Count'
 import Service from './components/service/Service'
 import Category from './components/category/Category'
 import Product from './components/product/Product'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <Service />
       <Category />
       <Product />
-    </>
+      <Contact />
+      <Footer />
+ </>
   )
 }
 
